@@ -3,7 +3,7 @@ locals {
 }
 
 module "iam" {
-  source = "github.com/mineiros-io/terraform-google-bigquery-dataset-iam?ref=v0.0.1"
+  source = "github.com/ccarrylab/terraform-google-bigquery-dataset-iam?ref=v0.0.1"
 
   for_each = local.iam_map
 
